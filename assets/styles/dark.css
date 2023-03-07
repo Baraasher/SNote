@@ -1,0 +1,42 @@
+root {
+    --Background: #16161a;
+    --Headline: #fffffe;
+    --Paragraph: #94a1b2;
+    --Button: #7f5af0;
+    --Button-text: #fffffe;
+    --Stroke: #010101;
+    --Main: #fffffe;
+    --Highlight: #7f5af0;
+    --Secondary: #72757e;
+    --Tertiary: #2cb67d;
+  }
+
+
+  .darkmode , .darkmode #main{
+    background-color: #0a0a0a;
+    color: #fffffe;
+  }
+
+  .darkmode #logo-link{
+    border: 2px solid #fffffe93;
+  }
+
+  .darkmode .logo-span-1{
+    background-color: #fffffe;
+  }
+
+  .darkmode .complete-note{
+    background-color: #191919;
+  }
+ .darkmode #search-div form{
+    background-color: #191919;
+  }
+
+  .darkmode #delete-note , .darkmode #save-note{
+    background-color: #010101;
+    color: #fffffe;
+  }
+
+.darkmode #date {
+    color: #fffffe;
+}
