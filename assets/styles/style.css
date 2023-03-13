@@ -18,7 +18,6 @@ root {
   color: #edf0f1;
 }
 body {
-  font-family: "Clash Display", sans-serif;
   font-size: 16px;
   min-height: 100vh;
   display: flex;
@@ -380,4 +379,27 @@ section {
     content: "This Website work Only in 250px ";
     color: #edf0f1;
   }
+}
+
+
+
+#alertElement{
+  position: fixed;
+  z-index: 99999;
+  top: 20px;
+  right: 0;
+  left: 0;
+  width: 15vw;
+  height: 50px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1rem;
+  color: #edf0f0 !important;
+  background-color: #f1373796 !important;
+  border-top-right-radius:8px ;
+  border-bottom-right-radius:8px ;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
